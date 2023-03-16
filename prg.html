@@ -10,21 +10,21 @@
     // Coordenadas  x (horizontal) / y (vertical)
     pencil.fillRect(0, 0, 600, 400);
 
-    pencil.fillStyle = 'green'
-    pencil.fillRect(0, 0, 200, 400)
+    pencil.fillStyle = 'green';
+    pencil.fillRect(0, 0, 200, 400);
 
-    pencil.fillStyle = 'red'
-    pencil.fillRect(400, 0, 200, 400)
+    pencil.fillStyle = 'red';
+    pencil.fillRect(400, 0, 200, 400);
 
     // É feito o caminho passo a passo para ser desenhado corretamente //
-    pencil.fillStyle = 'yellow'
+    pencil.fillStyle = 'yellow';
     pencil.beginPath();
     pencil.moveTo(300, 200);
     pencil.lineTo(200, 400);
     pencil.lineTo(400, 400);
     pencil.fill();
 
-    pencil.fillStyle = 'blue'
+    pencil.fillStyle = 'blue';
     pencil.beginPath();
     pencil.arc(300, 200, 50, 0, 2 * 3.14);
     pencil.fill();
